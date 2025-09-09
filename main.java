@@ -7,8 +7,8 @@ public class Main{
         library.addBook("Digital Design", "M. Morris Mano");
 
         // ADDING MEMBERS
-        Member member1 = library.addMember("Alice");
-        Member member2 = library.addMember("Bob");
+        Member member1 = library.registerMember("Alice");
+        Member member2 = library.registerMember("Bob");
 
         // ISSUING LOANS
         member1.borrowBook("Let Us C");

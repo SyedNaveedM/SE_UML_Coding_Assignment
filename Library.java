@@ -40,7 +40,7 @@ public class Library {
 
     }
 
-    public Member addMember(String name){
+    public Member registerMember(String name){
         Member member = new Member(memberIdCounter,name, this);
         members.add(member);
         memberIdCounter+=1;
